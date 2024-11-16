@@ -1,430 +1,940 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Cambridge Design Partners | Art is Architecture</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- awesome fontfamily -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="" /></div>
-      </div>
-      <!-- end loader -->
-      <div id="mySidepanel" class="sidepanel">
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-         <a href="index.html">Home</a>
-         <a href="about.html">About</a>
-         <a href="services.html">Services</a>
-         <a href="contact.html">Contact</a>
-      </div>
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="head-top">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Staging Template" />
+        <meta name="keywords" content="Staging, unica, creative, html" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="icon" type="image/svg+xml" href="/img/logo.png" />
+        <title>Cambridge Design Partners | Art is Architecture</title>
+
+        <!-- Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="css/font-awesome.min.css"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="css/owl.carousel.min.css"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/slick.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Page Preloder -->
+        <div id="preloder">
+            <div class="loader"></div>
+        </div>
+
+        <!-- Offcanvas Menu Begin -->
+        <div class="offcanvas-menu-overlay"></div>
+        <div class="offcanvas-menu-wrapper">
+            <div class="offcanvas__logo">
+                <a href="#"><img src="img/logo.png" alt="" /></a>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+            <div class="offcanvas__widget">
+                <span>Call us for any questions</span>
+                <h4>+44 203 442 9743</h4>
+            </div>
+        </div>
+        <!-- Offcanvas Menu End -->
+
+        <!-- Header Section Begin -->
+        <header class="header">
             <div class="container-fluid">
-               <div class="row">
-                  <div class="col-sm-3">
-                     <div class="logo">
-                        <a href="index.html"><img width="130" src="images/logo_footer.png" /></a>
-                     </div>
-                  </div>
-                  <div class="col-sm-9">
-                     <ul class="email text_align_right">
-                        <!-- <li class="d_none"> <i class="fa fa-map-marker" aria-hidden="true"></i>Location</a></li> -->
-                        <li class="d_none"><i class="fa fa-phone" aria-hidden="true"></i>+44 203 442-9743</a></li>
-                        <li class="d_none"> <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>contact@cambridgedesignpartnersltd.co.uk</a></li>
-                        <!-- <li class="d_none"> <a href="#">Login <i class="fa fa-user" aria-hidden="true"></i></a> </li> -->
-                        <!-- <li class="d_none"><i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i></li> -->
-                        <li> <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button></li>
-                     </ul>
-                  </div>
-               </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="header__logo">
+                            <a href="#"
+                                ><img
+                                    style="max-width: 200px"
+                                    src="img/logo.png"
+                                    alt=""
+                            /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li class="active">
+                                    <a href="./index.html">Home</a>
+                                </li>
+                                <li><a href="./projects.html">Projects</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <!-- <li>
+                                    <a href="#">Pages</a>
+                                    <ul class="dropdown">
+                                        <li>
+                                            <a href="./Project-details.html"
+                                                >Project Details</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="./about.html">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="./services.html"
+                                                >Services</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="./blog-details.html"
+                                                >Blog Details</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li> -->
+                                <!-- <li><a href="./blog.html">Blog</a></li> -->
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header__widget">
+                            <span>Call us for any questions</span>
+                            <h4>+44 203 442 9743</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas__open"><i class="fa fa-bars"></i></div>
             </div>
-         </div>
-      </header>
-      <!-- end header -->
-      <!-- start slider section -->
-      <div class=" banner_main">
-         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-               <li data-target="#myCarousel" data-slide-to="1"></li>
-               <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <div class="carousel-caption relative">
-                        <div class="bg_white">
-                           <h1>Luxury Defined ,<span class="yello">Precision Delivered</span></h1>
-                           <p>Transform your space with the world's finest luxury materials and installations. From exquisite Arabescato marble to custom crystal chandeliers and advanced elevator systems, we provide unparalleled craftsmanship for those who settle for nothing less than extraordinary.</p>
+        </header>
+        <!-- Header Section End -->
+
+        <!-- Hero Section Begin -->
+        <section class="hero">
+            <div class="hero__slider owl-carousel">
+                <div
+                    class="hero__items set-bg"
+                    data-setbg="img/hero/hero-1.jpg"
+                >
+                    <div class="hero__text">
+                        <h2>Quality is not only our standard.</h2>
+                        <a href="#" class="primary-btn">See Project</a>
+                        <a href="#" class="more_btn">Discover more</a>
+                        <div class="hero__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
                         </div>
-                        <a class="read_more ban_btn" href="Javascript:void(0)">Read More</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption relative">
-                        <div class="bg_white">
-                           <h1>Luxury Defined ,<span class="yello">Precision Delivered</span></h1>
-                           <p>Transform your space with the world's finest luxury materials and installations. From exquisite Arabescato marble to custom crystal chandeliers and advanced elevator systems, we provide unparalleled craftsmanship for those who settle for nothing less than extraordinary.</p>
+                    </div>
+                </div>
+                <div
+                    class="hero__items set-bg"
+                    data-setbg="img/hero/hero-1.jpg"
+                >
+                    <div class="hero__text">
+                        <h2>Quality is not only our standard.</h2>
+                        <a href="#" class="primary-btn">See Project</a>
+                        <a href="#" class="more_btn">Discover more</a>
+                        <div class="hero__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
                         </div>
-                        <a class="read_more ban_btn" href="Javascript:void(0)">Read More</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption relative">
-                        <div class="bg_white">
-                           <h1>Luxury Defined ,<span class="yello">Precision Delivered</span></h1>
-                           <p>Transform your space with the world's finest luxury materials and installations. From exquisite Arabescato marble to custom crystal chandeliers and advanced elevator systems, we provide unparalleled craftsmanship for those who settle for nothing less than extraordinary.</p>
-                        </div>
-                        <a class="read_more ban_btn" href="Javascript:void(0)">Read More</a>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-            </a>
-         </div>
-      </div>
-      <!-- end slider section -->
-      <!-- six_box-->
-      <div id="about" class="about top_layer">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <div class="titlepage">
-                     <h2>About us</h2>
-                     <p>Where Vision Meets Craftsmanship—</p>
-                  </div>
-               </div>
-               <div class=" col-sm-12">
-                  <div class="about_box">
-                     <div class="row d_flex">
-                        <div class="col-md-5">
-                           <div class="about_box_text">
-                              <h3>Best INTERIOR Design</h3>
-                              <p>As a leading design and construction agency, Where Vision Meets Craftsmanship—we create experiences. From luxurious homes to sophisticated offices, we craft environments where design meets functionality. Our team of skilled architects, designers, and craftsmen are dedicated to transforming your space with personalized solutions.
-                              </p>
-                              <a class="read_more" href="Javascript:void(0)">Read More</a>
-                           </div>
-                        </div>
-                        <div class=" col-md-7  pppp">
-                           <div class="about_box_img">
-                              <figure><img src="images/about_img.png" alt="#" /></figure>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end six_box-->
-      <!-- building -->
-      <div class="building">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>IF A BUILDING <br><span class="">BECOMES ARCHITECTURE <br></span> THEN IT IS ART</h2>
-                     <p>We offer full-service architectural and interior design solutions, tailoring every project to reflect your unique style and functional requirements. Whether you’re looking to revamp an office space or design a luxury home, our expert team delivers innovative solutions that exceed expectations.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end building -->
-      <!-- services -->
-      <div class="services_main">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Services</h2>
-                     <span>Where Vision Meets Craftsmanship—</span>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-12">
-                  <ul class="nav nav-tabs md-tabs border_none" id="myTabMD" role="tablist">
-                     <li class="nav-item lisertab">
-                        <a class="nav-link servi_tab active" id="home-tab-md" data-toggle="tab" href="#home-md" role="tab" aria-controls="home-md"
-                           aria-selected="true">RESIDENTAL</a>
-                     </li>
-                     <li class="nav-item lisertab">
-                        <a class="nav-link servi_tab" id="profile-tab-md" data-toggle="tab" href="#profile-md" role="tab" aria-controls="profile-md"
-                           aria-selected="false">RETAIL DESIGN</a>
-                     </li>
-                     <li class="nav-item lisertab">
-                        <a class="nav-link servi_tab" id="contact-tab-md" data-toggle="tab" href="#contact-md" role="tab" aria-controls="contact-md"
-                           aria-selected="false">SPACE ADAPTATION</a>
-                     </li>
-                  </ul>
-                  <div class="tab-content card back_bg" id="myTabContentMD">
-                     <div class="tab-pane fade show active" id="home-md" role="tabpanel" aria-labelledby="home-tab-md">
-                        <div class="row">
-                           <div class="col-md-4 col-sm-6 padding_0 margin_right20">
-                              <div class="services">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img1.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4 col-sm-6 padding_0 margin_top70p margin_right20 margin_left20">
-                              <div class="services">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img2.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4 col-sm-6 padding_0 margin_left20">
-                              <div class="services">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img3.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4 offset-md-8 col-sm-6 padding_0 margin_top170">
-                              <div class="services margin_left60">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img4.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-6 margin_top40">
-                              <a class="read_more " href="Javascript:void(0)">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tab-pane fade" id="profile-md" role="tabpanel" aria-labelledby="profile-tab-md">
-                        <div class="row">
-                           <div class="col-md-4 col-sm-6 padding_0 margin_right20">
-                              <div class="services">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img3.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4 col-sm-6 padding_0 margin_top70p margin_right20 margin_left20">
-                              <div class="services">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img2.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4 col-sm-6 padding_0 margin_left20">
-                              <div class="services">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img4.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4 offset-md-8 col-sm-6 padding_0 margin_top170">
-                              <div class="services margin_left60">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img1.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-6 margin_top40">
-                              <a class="read_more " href="Javascript:void(0)">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tab-pane fade" id="contact-md" role="tabpanel" aria-labelledby="contact-tab-md">
-                        <div class="row">
-                           <div class="col-md-4 col-sm-6 padding_0 margin_right20">
-                              <div class="services">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img4.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4 col-sm-6 padding_0 margin_top70p margin_right20 margin_left20">
-                              <div class="services">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img2.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4 col-sm-6 padding_0 margin_left20">
-                              <div class="services">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img1.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-4 offset-md-8 col-sm-6 padding_0 margin_top170">
-                              <div class="services margin_left60">
-                                 <div class="services_img">
-                                    <figure><img src="images/service_img3.png" alt="#" />  </figure>
-                                    <div class="ho_dist">
-                                       <span>Cambridge Design Partners</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-6 margin_top40">
-                              <a class="read_more " href="Javascript:void(0)">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end services -->
-      <!-- instant -->
-      <div class="instant">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="titlepage text_align_left">
-                     <h2>Get an instant estimate</h2>
-                     <p>Whether you're planning a home renovation, office redesign, or custom installation, we provide a transparent and detailed estimate tailored to your needs.</p>
-                     <a class="read_more" href="Javascript:void(0)">Get A quote</a>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="instant_img">
-                     <figure><img src="images/pc.png" alt="#"/></figure>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end instant -->
-      <!-- footer -->
-      <footer>
-         <div class="footer">
+            <div class="slide-num" id="snh-1"></div>
+            <div class="slider__progress"><span></span></div>
+        </section>
+        <!-- Hero Section End -->
+
+        <!-- About Section Begin -->
+        <section class="about spad">
             <div class="container">
-               <div class="row">
-                  <div class="col-md-10 offset-md-1">
-                     <ul class="social_icon text_align_center">
-                        <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                     </ul>
-                  </div>
-                  <div class="col-md-4 col-sm-6">
-                     <div class="reader">
-                        <a href="index.html"><img width="130" src="images/logo_footer.png" alt="#"/></a>
-                        <p class="padd_flet40">Whether you're planning a home renovation, office redesign, or custom installation, we provide a transparent and detailed estimate tailored to your needs.</p>
-                     </div>
-                  </div>
-                  <div class="col-md-2 col-sm-6">
-                     <div class="reader">
-                        <h3>Explore</h3>
-                        <ul class="xple_menu">
-                           <li><a href="index.html">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="services.html">Services</a></li>
-                           <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="reader">
-                        <h3>Recent Posts</h3>
-                        <ul class="re_post">
-                           <li><img src="images/re_img1.jpg" alt="#"/></li>
-                           <li><img src="images/re_img2.jpg" alt="#"/></li>
-                           <li><img src="images/re_img3.jpg" alt="#"/></li>
-                           <li><img src="images/re_img4.jpg" alt="#"/></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="reader">
-                        <h3>Contact Us</h3>
-                        <p>Ready to transform your space? Contact our team today to discuss your project and discover how we can bring your vision to life with our comprehensive design and construction services. </p>
-                     </div>
-                  </div>
-               </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about__text">
+                            <div class="section-title">
+                                <span>who are we</span>
+                                <h2>
+                                    Crafting Exceptional Spaces with Precision
+                                    and Innovation
+                                </h2>
+                            </div>
+                            <div class="about__para__text">
+                                <p>
+                                    Cambridge Partners Invest Ltd is a premier
+                                    design and construction agency specializing
+                                    in transforming spaces with a unique blend
+                                    of innovation, craftsmanship, and luxury. We
+                                    cater to clients seeking high-end,
+                                    customized solutions for homes, offices, and
+                                    commercial projects.
+                                </p>
+                                <p>
+                                    Our team of experts brings a wealth of
+                                    experience and a passion for delivering
+                                    tailored environments that not only meet but
+                                    exceed expectations. At Cambridge Partners,
+                                    we turn visions into reality by combining
+                                    cutting-edge design with premium materials
+                                    and meticulous attention to detail.
+                                </p>
+                            </div>
+                            <a href="#" class="primary-btn normal-btn"
+                                >Learn More</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about__pic">
+                            <div class="about__pic__inner">
+                                <img src="img/about-pic.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="copyright text_align_center">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-10 offset-md-1">
-                        <p>Copyright 2020 All Right Reserved By <a href="#"> Cambridge Design Partners</a></p>
-                     </div>
-                  </div>
-               </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Project Section Begin -->
+        <section class="project">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="section-title">
+                            <span>Our works</span>
+                            <h2>Latest projects</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="project__slider owl-carousel">
+                        <div class="col-lg-3">
+                            <div
+                                class="project__slider__item set-bg"
+                                data-setbg="img/project/project-1.jpg"
+                            >
+                                <div class="project__slider__item__hover">
+                                    <span>interiors</span>
+                                    <h5>Lower River Street Astoria</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div
+                                class="project__slider__item set-bg"
+                                data-setbg="img/project/project-2.jpg"
+                            >
+                                <div class="project__slider__item__hover">
+                                    <span>interiors</span>
+                                    <h5>Lower River Street Astoria</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div
+                                class="project__slider__item set-bg"
+                                data-setbg="img/project/project-3.jpg"
+                            >
+                                <div class="project__slider__item__hover">
+                                    <span>interiors</span>
+                                    <h5>Lower River Street Astoria</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div
+                                class="project__slider__item set-bg"
+                                data-setbg="img/project/project-4.jpg"
+                            >
+                                <div class="project__slider__item__hover">
+                                    <span>interiors</span>
+                                    <h5>Lower River Street Astoria</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div
+                                class="project__slider__item set-bg"
+                                data-setbg="img/project/project-2.jpg"
+                            >
+                                <div class="project__slider__item__hover">
+                                    <span>interiors</span>
+                                    <h5>Lower River Street Astoria</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-   </body>
+        </section>
+        <!-- Project Section End -->
+
+        <!-- Services Section Begin -->
+        <section class="services spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <span>Our specialization</span>
+                            <h2>What we do</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="services__item">
+                            <img src="img/services/services-1.png" alt="" />
+                            <h4>Interior Design</h4>
+                            <p>
+                                As you might expect of a company that began as a
+                                high-end interiors contractor, we pay strict
+                                attention.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="services__item">
+                            <img src="img/services/services-2.png" alt="" />
+                            <h4>Office Design</h4>
+                            <p>
+                                Our commitment to exceptional quality has never
+                                wavered. To day ranks as one of the most
+                                highly-regarded construction.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="services__item">
+                            <img src="img/services/services-3.png" alt="" />
+                            <h4>Home Design</h4>
+                            <p>
+                                Interdisciplinary architectural studio with
+                                cultural, residential and commercial projects
+                                built worldwide.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="services__item">
+                            <img src="img/services/services-4.png" alt="" />
+                            <h4>Design drawing</h4>
+                            <p>
+                                Creating architectural and creative solutions to
+                                help people realize their vision and make them a
+                                reality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter__content">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="counter__item">
+                                <div class="counter__item__number">
+                                    <h2 class="count">85</h2>
+                                </div>
+                                <div class="counter__item__text">
+                                    <h5>
+                                        Projects<br />
+                                        Completed
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="counter__item">
+                                <div class="counter__item__number">
+                                    <h2 class="count">127</h2>
+                                </div>
+                                <div class="counter__item__text">
+                                    <h5>
+                                        Happy<br />
+                                        Clients
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="counter__item">
+                                <div class="counter__item__number">
+                                    <h2 class="count">36</h2>
+                                </div>
+                                <div class="counter__item__text">
+                                    <h5>
+                                        Awards<br />
+                                        Received
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="counter__item">
+                                <div class="counter__item__number">
+                                    <h2 class="count">74</h2>
+                                </div>
+                                <div class="counter__item__text">
+                                    <h5>
+                                        Cups Of<br />
+                                        Coffee
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section End -->
+
+        <!-- Testimonial Section Begin -->
+        <section
+            class="testimonial spad set-bg"
+            data-setbg="img/testimonial/testimonial-bg.jpg"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="section-title">
+                            <span>Testimonials</span>
+                            <h2>What your clients say</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="testimonial__carousel">
+                            <div class="testimonial__item">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-9 col-lg-10">
+                                        <p>
+                                            Cambridge Design Partners has a
+                                            unique talent for blending elegance
+                                            with innovation. Every project
+                                            reflects their dedication to
+                                            creating spaces that are both
+                                            stunning and functional.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__item">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-9 col-lg-10">
+                                        <p>
+                                            The team at Cambridge Design
+                                            Partners has an incredible eye for
+                                            detail. Their designs are not only
+                                            luxurious but also practical,
+                                            delivering high-end results that
+                                            surpass expectations every time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__item">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-9 col-lg-10">
+                                        <p>
+                                            The quality of work that Cambridge
+                                            Design Partners delivers is
+                                            exceptional. Their commitment to
+                                            luxury and precision ensures that
+                                            every project feels bespoke and
+                                            perfectly crafted.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__item">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-9 col-lg-10">
+                                        <p>
+                                            Cambridge Design Partners truly
+                                            understands the art of luxury
+                                            construction. From concept to
+                                            completion, their attention to
+                                            detail and craftsmanship is second
+                                            to none.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__item">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-lg-9">
+                                        <p>
+                                            The team at Cambridge Design
+                                            Partners has an incredible eye for
+                                            detail. Their designs are not only
+                                            luxurious but also practical,
+                                            delivering high-end results that
+                                            surpass expectations every time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-6 col-lg-8 col-md-7 col-sm-10">
+                        <!-- CLIENTS NAME -->
+                        <div class="testimonial__client">
+                            <div class="testimonial__client__item add">
+                                <div class="testimonial__client__pic">
+                                    <img
+                                        src="img/logo.png"
+                                        style="object-fit: contain"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="testimonial__client__text">
+                                    <h5>Carlos Rodríguez</h5>
+                                    <span>Architect</span>
+                                </div>
+                            </div>
+                            <div class="testimonial__client__item">
+                                <div class="testimonial__client__pic">
+                                    <img
+                                        src="img/logo.png"
+                                        style="object-fit: contain"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="testimonial__client__text">
+                                    <h5>Anna Müller</h5>
+                                    <span>Project Manager</span>
+                                </div>
+                            </div>
+                            <div class="testimonial__client__item">
+                                <div class="testimonial__client__pic">
+                                    <img
+                                        src="img/logo.png"
+                                        style="object-fit: contain"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="testimonial__client__text">
+                                    <h5>Sophie Lefèvre</h5>
+                                    <span>Interior Designer</span>
+                                </div>
+                            </div>
+                            <div class="testimonial__client__item">
+                                <div class="testimonial__client__pic">
+                                    <img
+                                        src="img/logo.png"
+                                        style="object-fit: contain"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="testimonial__client__text">
+                                    <h5>Luca Bianchi</h5>
+                                    <span>Client Relations Manager</span>
+                                </div>
+                            </div>
+                            <div class="testimonial__client__item">
+                                <div class="testimonial__client__pic">
+                                    <img
+                                        src="img/logo.png"
+                                        style="object-fit: contain"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="testimonial__client__text">
+                                    <h5>Emma Janssen</h5>
+                                    <span>Site Supervisor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="logo__carousel owl-carousel">
+                            <div class="logo__carousel__item">
+                                <a href="#"
+                                    ><img src="img/logo/logo-1.png" alt=""
+                                /></a>
+                            </div>
+                            <div class="logo__carousel__item">
+                                <a href="#"
+                                    ><img src="img/logo/logo-2.png" alt=""
+                                /></a>
+                            </div>
+                            <div class="logo__carousel__item">
+                                <a href="#"
+                                    ><img src="img/logo/logo-3.png" alt=""
+                                /></a>
+                            </div>
+                            <div class="logo__carousel__item">
+                                <a href="#"
+                                    ><img src="img/logo/logo-4.png" alt=""
+                                /></a>
+                            </div>
+                            <div class="logo__carousel__item">
+                                <a href="#"
+                                    ><img src="img/logo/logo-5.png" alt=""
+                                /></a>
+                            </div>
+                            <div class="logo__carousel__item">
+                                <a href="#"
+                                    ><img src="img/logo/logo-3.png" alt=""
+                                /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial Section End -->
+
+        <!-- Team Section Begin -->
+        <!-- <section class="team spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-8 col-sm-6">
+                        <div class="section-title">
+                            <span>Our Team</span>
+                            <h2>Meet our team</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="team__btn">
+                            <a href="#" class="primary-btn normal-btn"
+                                >View All</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="team__item set-bg"
+                            data-setbg="img/team/team-1.jpg"
+                        >
+                            <div class="team__text">
+                                <div class="team__title">
+                                    <h5>Dolores Webster</h5>
+                                    <span>CEO & Founder</span>
+                                </div>
+                                <p>
+                                    Vestibulum dapibus odio quam, sit amet
+                                    hendrerit dui ultricies consectetur. Ut
+                                    viverra porta leo, non tincidunt mauris
+                                    condimentum eget. Vivamus non turpis elit.
+                                    Aenean ultricies nisl sit amet.
+                                </p>
+                                <div class="team__social">
+                                    <a href="#"
+                                        ><i class="fa fa-facebook"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-twitter"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-instagram"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="team__item set-bg"
+                            data-setbg="img/team/team-2.jpg"
+                        >
+                            <div class="team__text">
+                                <div class="team__title">
+                                    <h5>Dana Vaughn</h5>
+                                    <span>Architect</span>
+                                </div>
+                                <p>
+                                    Vestibulum dapibus odio quam, sit amet
+                                    hendrerit dui ultricies consectetur. Ut
+                                    viverra porta leo, non tincidunt mauris
+                                    condimentum eget. Vivamus non turpis elit.
+                                    Aenean ultricies nisl sit amet.
+                                </p>
+                                <div class="team__social">
+                                    <a href="#"
+                                        ><i class="fa fa-facebook"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-twitter"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-instagram"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="team__item set-bg"
+                            data-setbg="img/team/team-3.jpg"
+                        >
+                            <div class="team__text">
+                                <div class="team__title">
+                                    <h5>Jonathan Mcdaniel</h5>
+                                    <span>Architect</span>
+                                </div>
+                                <p>
+                                    Vestibulum dapibus odio quam, sit amet
+                                    hendrerit dui ultricies consectetur. Ut
+                                    viverra porta leo, non tincidunt mauris
+                                    condimentum eget. Vivamus non turpis elit.
+                                    Aenean ultricies nisl sit amet.
+                                </p>
+                                <div class="team__social">
+                                    <a href="#"
+                                        ><i class="fa fa-facebook"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-twitter"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-instagram"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Team Section End -->
+
+        <!-- Call To Action Section Begin -->
+        <section class="callto spad set-bg" data-setbg="img/call-bg.jpg">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <div class="callto__text">
+                            <span>Why choose us?</span>
+                            <h2>
+                                Our Ability To Deliver Outstanding Results For
+                                Our Clients Starts With Our Team Of Smart.
+                            </h2>
+                            <a href="#" class="primary-btn">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call To Action Section End -->
+
+        <!-- Latest Section Begin -->
+        <section class="latest spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-8 col-sm-6">
+                        <div class="section-title">
+                            <span>Latest News</span>
+                            <h2>From our blog</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="latest__btn">
+                            <a href="#" class="primary-btn normal-btn"
+                                >View All</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="latest__item">
+                            <div class="latest__item__pic">
+                                <img src="img/blog/latest-1.jpg" alt="" />
+                            </div>
+                            <div class="latest__item__text">
+                                <span>Architecture</span>
+                                <h4>
+                                    Target and Amazon Shopping List for Home
+                                    Stagers
+                                </h4>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="latest__item">
+                            <div class="latest__item__pic">
+                                <img src="img/blog/latest-2.jpg" alt="" />
+                            </div>
+                            <div class="latest__item__text">
+                                <span>Interior</span>
+                                <h4>
+                                    6 Ideas for Team Building and Employee
+                                    Appreciation for Home Stagers
+                                </h4>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="latest__item">
+                            <div class="latest__item__pic">
+                                <img src="img/blog/latest-3.jpg" alt="" />
+                            </div>
+                            <div class="latest__item__text">
+                                <span>Planning</span>
+                                <h4>
+                                    How to Find the Best Price Structure for
+                                    Your Home Staging Services
+                                </h4>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Latest Section End -->
+
+        <!-- Footer Section Begin -->
+        <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6">
+                            <div class="footer__top__text">
+                                <h2>Ready To Work With Us?</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="footer__top__newslatter">
+                                <form action="#">
+                                    <input
+                                        type="text"
+                                        placeholder="Enter your email..."
+                                    />
+                                    <button type="submit">
+                                        <i class="fa fa-send"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer__about">
+                            <div class="footer__logo">
+                                <a href="#"
+                                    ><img src="img/logo.png" alt=""
+                                /></a>
+                            </div>
+                            <p>
+                                Meridian House, 202-204 Finchley Road, <br />
+                                Hampstead, London NW3 6BX
+                            </p>
+                            <ul>
+                                <li>contact@cambridgedesignpartners.com</li>
+                                <li>+44 203 442 9743</li>
+                            </ul>
+                            <div class="footer__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                        <div class="footer__widget">
+                            <h6>Company</h6>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Our Works</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6">
+                        <div class="footer__widget">
+                            <h6>Services</h6>
+                            <ul>
+                                <li><a href="#">Architecture</a></li>
+                                <li><a href="#">Interior Design</a></li>
+                                <li><a href="#">Exterior Design</a></li>
+                                <li><a href="#">Planning</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="footer__address">
+                            <h6>Get In Touch</h6>
+                            <p>
+                                Meridian House, 202-204 Finchley Road, <br />
+                                Hampstead, London NW3 6BX
+                            </p>
+                            <ul>
+                                <li>contact@cambridgedesignpartners.com</li>
+                                <li>+44 203 442 9743</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7">
+                            <div class="copyright__text">
+                                <p>
+                                    Copyright ©
+                                    <script>
+                                        document.write(
+                                            new Date().getFullYear()
+                                        );
+                                    </script>
+                                    All rights reserved | with
+                                    <i
+                                        class="fa fa-heart-o"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <a href="" target="_blank"
+                                        >Cambridge Design Partners</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5">
+                            <div class="copyright__widget">
+                                <a href="#">Terms of use</a>
+                                <a href="#">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+
+        <!-- Js Plugins -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
+

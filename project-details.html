@@ -6,8 +6,7 @@
         <meta name="keywords" content="Staging, unica, creative, html" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="icon" type="image/svg+xml" href="/img/logo.png" />
-        <title>Cambridge Design Partners | Art is Architecture</title>
+        <title>Staging | Template</title>
 
         <!-- Google Font -->
         <link
@@ -57,10 +56,7 @@
         <!-- Offcanvas Menu End -->
 
         <!-- Header Section Begin -->
-        <header
-            class="header header-normal set-bg"
-            data-setbg="img/little-header.jpg"
-        >
+        <header class="header">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3">
@@ -72,9 +68,11 @@
                         <nav class="header__menu mobile-menu">
                             <ul>
                                 <li><a href="./index.html">Home</a></li>
-                                <li><a href="./projects.html">Projects</a></li>
+                                <li class="active">
+                                    <a href="./projects.html">Projects</a>
+                                </li>
                                 <li><a href="./about.html">About</a></li>
-                                <!-- <li>
+                                <li>
                                     <a href="#">Pages</a>
                                     <ul class="dropdown">
                                         <li>
@@ -96,11 +94,9 @@
                                             >
                                         </li>
                                     </ul>
-                                </li> -->
-                                <!-- <li><a href="./blog.html">Blog</a></li> -->
-                                <li class="active">
-                                    <a href="./contact.html">Contact</a>
                                 </li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -116,115 +112,102 @@
         </header>
         <!-- Header Section End -->
 
-        <!-- Contact Section Begin -->
-        <section class="contact spad">
+        <!-- Breadcrumb Section Begin -->
+        <div
+            class="breadcrumb-option spad set-bg"
+            data-setbg="img/breadcrumb-bg.jpg"
+        >
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
-                        <div class="contact__text">
-                            <div class="section-title">
-                                <span>Information</span>
-                                <h2>Contact Details</h2>
-                            </div>
-                            <p>
-                                As you might expect of a company that began as a
-                                high-end interiors contractor, we pay strict
-                                attention.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="contact__widget__item">
-                            <div class="contact__widget__item__icon">
-                                <img src="img/contact/ci-1.png" alt="" />
-                            </div>
-                            <div class="contact__widget__item__text">
-                                <h5>Phone Number</h5>
-                                <span>+44 203 442 9743</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="contact__widget__item">
-                            <div class="contact__widget__item__icon">
-                                <img src="img/contact/ci-2.png" alt="" />
-                            </div>
-                            <div class="contact__widget__item__text">
-                                <h5>Email Address</h5>
-                                <span>contact@cambridgedesignpartners.com</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="contact__widget__item last__item">
-                            <div class="contact__widget__item__icon">
-                                <img src="img/contact/ci-3.png" alt="" />
-                            </div>
-                            <div class="contact__widget__item__text">
-                                <h5>Office Location</h5>
-                                <span
-                                    >Meridian House, 202-204 Finchley Road,
-                                    Hampstead, London NW3 6BX</span
-                                >
+                    <div class="col-lg-12 text-center">
+                        <div class="breadcrumb__text">
+                            <h2>Projects Details</h2>
+                            <div class="breadcrumb__links">
+                                <a href="./index.html">Home</a>
+                                <a href="./project.html">Project</a>
+                                <span>Projects Details</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19847.91299562426!2d-0.1823733681823678!3d51.55009843024736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761a8475059df3%3A0xa41e1a98b05c2850!2sMeridian%20House%2C%20202-204%20Finchley%20Rd%2C%20London%20NW3%206BX%2C%20UK!5e0!3m2!1sen!2sng!4v1727830046912!5m2!1sen!2sng"
-                        height="460"
-                        style="border: 0"
-                        allowfullscreen=""
-                    ></iframe>
-                </div>
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="contact__form__text">
-                            <div class="section-title">
-                                <span>Form</span>
-                                <h2>Get in touch</h2>
-                            </div>
-                            <p>
-                                As you might expect of a company that began as a
-                                high-end interiors contractor, we pay strict
-                                attention.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb Section End -->
+
+        <!-- Project Details Section Begin -->
+        <section class="project-details spad">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <div class="contact__form">
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <input type="text" placeholder="Name" />
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <input
-                                            type="text"
-                                            placeholder="Email"
-                                        />
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <textarea
-                                            placeholder="Message"
-                                        ></textarea>
-                                        <button type="submit" class="site-btn">
-                                            Send Message
-                                        </button>
-                                    </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <img
+                                    src="img/project/details/details-1.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    src="img/project/details/details-3.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    src="img/project/details/details-5.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <img
+                                    src="img/project/details/details-2.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    src="img/project/details/details-4.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    src="img/project/details/details-6.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="project__sidebar">
+                            <div class="project__sidebar__about">
+                                <h2>Office Building Creative</h2>
+                                <p>
+                                    Metasurfaces are generally designed by
+                                    placing scatterers in periodic or
+                                    pseudo-periodic grids. We propose and
+                                    discuss design rules for functional
+                                    metasurfaces with randomly placed.
+                                </p>
+                                <p>
+                                    Anisotropic elements that randomly sample.
+                                    Quisque sit amet nisl ante. Fusce lacinia
+                                    non tellus id gravida. Cras neque dolor,
+                                    volutpat et hendrerit et.
+                                </p>
+                            </div>
+                            <div class="product__details__widget">
+                                <div class="product__details__widget__item">
+                                    <span>Clients:</span>
+                                    <h4>John Smith</h4>
                                 </div>
-                            </form>
+                                <div class="product__details__widget__item">
+                                    <span>Location:</span>
+                                    <p>101 E 129th St, East Chicago, US</p>
+                                </div>
+                                <div class="product__details__widget__item">
+                                    <span>Location:</span>
+                                    <p>Decoration, building, Office.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Contact Section End -->
+        <!-- Project Details Section End -->
 
         <!-- Footer Section Begin -->
         <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
